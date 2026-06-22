@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - VibeVault</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Join VibeVault</h2>
+        <form method="POST">
+            <input type="text" id="username" name="username" placeholder="Choose a Username" required>
+            <input type="password" id="password" name="password" placeholder="Create a Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p class="footer-text">Already a member? <a href="/login">Login here</a></p>
+    </div>
+</body>
+</html>

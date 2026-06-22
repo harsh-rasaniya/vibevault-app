@@ -1,0 +1,10 @@
+# Ignore the database file
+vibevault.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments (if you use one later)
+venv/
+env/
